@@ -7,3 +7,5 @@ I then went into the dc-1(domain admin account) virtual machine and went to file
 I then changed the access for the read acess to read by right clicking the read acess folder then I pressed properites and then pressed sharing and then share. I then typed domain users and gave the domain users read acess.
 <img width="624" height="458" alt="image" src="https://github.com/user-attachments/assets/792d2f0a-5eb0-4321-ab83-e2eed6187e48" />
 
+I then went to the write access folder 
+
