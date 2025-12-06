@@ -25,6 +25,22 @@ In the write folder I could not only view inside the file but I could also add f
 In the no access folder I could not view anything inside the folder
 <img width="1126" height="634" alt="image" src="https://github.com/user-attachments/assets/12a30058-701b-40c0-8b9d-8600fdadd3bb" />
 
+I then opened active directory users and computers and created a organizational unit named _GROUPS I then created a group inside of the organizational unit called accountants
+<img width="757" height="527" alt="image" src="https://github.com/user-attachments/assets/34024a35-6b35-4844-89ae-1d5991c89fa9" />
+
+I then went back to accounting folder I made in the c drive and I right clicked it went to properites and the pressed sharing after that I add accountants and gave them read/write permission. 
+<img width="1132" height="632" alt="image" src="https://github.com/user-attachments/assets/e92583e7-d353-4d81-821b-e75e40abc338" />
+
+I then went back to the client-1(normal user) virtual machine to see what happens when I try to access the accounting folder and I was not able to get in
+<img width="1127" height="638" alt="image" src="https://github.com/user-attachments/assets/6795a88d-d1e9-4807-9370-e42bc3a91a76" />
+
+I then logged off of client-1(normal user) virtual machine then I went back to dc-1(domain admin) virtual machine and I went to active directory users and computers pressed on _groups then double clicked it and then pressed members and pressed add and then I added my user bic.voj 
+<img width="750" height="512" alt="image" src="https://github.com/user-attachments/assets/2fa8392e-d93f-4726-886c-7c072e75b36f" />
+
+I then signed back into to client-1 (normal user) as bic.voj and then I went to file explorer and typed \\dc-1 in the search bar and then pressed the accounting folder to see if I would be allowed acess and I was.
+<img width="1129" height="635" alt="image" src="https://github.com/user-attachments/assets/45018873-91aa-45e5-91d4-012bcacb45fd" />
+
+
 
 
 
