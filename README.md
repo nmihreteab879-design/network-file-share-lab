@@ -10,4 +10,8 @@ I then changed the access for the read acess to read by right clicking the read 
 I then went to the write access folder and I right clicked  it pressed properities pressed sharing then I typed domain users and gave the domain users read/write permission.
 <img width="593" height="457" alt="image" src="https://github.com/user-attachments/assets/cc3fe0d9-46e8-42e6-8dbf-8921e64e6386" />
 
+I went to sharing for no acess group aswell and then I gave domain admins read/write access
+<img width="617" height="458" alt="image" src="https://github.com/user-attachments/assets/1fcc6318-a136-4a23-a6cc-f73481bac6cf" />
+
+
 
