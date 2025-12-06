@@ -1,3 +1,33 @@
+<p align="center">
+<img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
+</p>
+
+<h1>Active Directory File Share Permissions Lab</h1>
+In this lab, I configured shared folders with different permission levels, created an AD security group, and validated access from a domain user. This demonstrates how organizations control access using Active Directory, security groups, and share permissions.<br />
+
+<h2>Environments and Technologies Used</h2>
+
+- Windows Server 2022 (Domain Controller)
+- Windows 10 (Client Machine)
+- Active Directory Users and Computers
+- Windows File Explorer (Shared Folders)
+- Remote Desktop Connection
+
+<h2>Operating Systems Used</h2>
+
+- Windows Server 2022  
+- Windows 10 Pro
+
+<h2>High-Level Steps</h2>
+
+- Create shared folders with different access levels  
+- Configure Share Permissions for Domain Users and Domain Admins  
+- Test access from a domain-joined client  
+- Create an AD Organizational Unit and Security Group  
+- Assign folder permissions to the group  
+- Add a user to the group and verify access  
+
+<h2>Actions and Observations</h2>
 The first step I took is connecting to a virtual machine I call dc-1 that will serve as the domain admin account and I also connected to a virtual machine I named client-1 which will serve as a normal user.
 <img width="1528" height="1023" alt="image" src="https://github.com/user-attachments/assets/a85163a7-ab0d-48e5-a368-c21394c45df2" />
 
