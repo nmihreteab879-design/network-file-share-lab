@@ -72,7 +72,7 @@ I logged off the client-1 workstation and returned to the dc-1 virtual machine t
 
 <img width="750" height="512" alt="image" src="https://github.com/user-attachments/assets/2fa8392e-d93f-4726-886c-7c072e75b36f" />
 
-I logged back into client-1 as bic.voj and navigated to the network path \dc-1 to verify the new permissions. Upon opening the accounting folder, I successfully gained access and could view the contents. This confirms that adding the user to the accountants group correctly applied the necessary permissions to their account.
+I logged back into client-1 as bic.voj and navigated to the network path \\dc-1 to verify the new permissions. Upon opening the accounting folder, I successfully gained access and could view the contents. This confirms that adding the user to the accountants group correctly applied the necessary permissions to their account.
 
 <img width="1129" height="635" alt="image" src="https://github.com/user-attachments/assets/45018873-91aa-45e5-91d4-012bcacb45fd" />
 
